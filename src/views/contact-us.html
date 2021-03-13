@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Reynolds Doceria</title>
+
+    <link rel="icon" href="/public/images/logo-icon.png" />
+
+    <link rel="stylesheet" href="/public/css/main.css" />
+    <link rel="stylesheet" href="/public/css/animations.css" />
+    <link rel="stylesheet" href="/public/css/contact-us.css" />
+    <link rel="stylesheet" href="/public/css/sidebar.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="contact-us">
+        <aside class="animate-right sidebar">
+            <a href="./index.html">
+                <img src="/public/images/logo-P.png" alt="Logomarca" />
+            </a>
+
+            <a href="./home.html" id="home-button">Home</a>
+
+            <a href="./prices.html" id="prices-button">Preços</a>
+
+            <footer>
+                <a href="./contact-us.html">
+                    Contato
+                </a>
+            </footer>
+        </aside>
+
+        <main class="animate-appear with-sidebar">
+            <form action="">
+                <fieldset>
+                    <legend>Contato</legend>
+
+                    <div class="input-block">
+                        <label for="name">Nome</label>
+                        <input id="name" name="name" required />
+                    </div>
+
+                    <div class="input-block">
+                        <label for="email">email</label>
+                        <input id="email" name="email" required />
+                    </div>
+
+                    <div class="input-block">
+                        <label for="whatsapp">Número de WhatsApp</label>
+                        <input id="whatsapp" name="whatsapp" required />
+                    </div>
+
+                    <div class="input-block">
+                        <label for="mensage">
+                            Mensagem <span>Máximo 300 caracteres</span>
+                        </label>
+                        <textarea id="mensage" name="mensage" required></textarea>
+                    </div>
+
+                    <button type="submit" onclick="alert('Sua mensagem foi encaminhada!');">
+                        Enviar
+                    </button>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Ou se preferir</legend>
+
+                    <p>
+                        Acesso nosso instagram @reynolds_doceria ou
+                        nos chame no whatsapp (82) 9 9999-9999.
+                    </p>
+                </fieldset>
+            </form>
+        </main>
+
+    </div>
+</body>
+
+</html>

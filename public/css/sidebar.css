@@ -1,0 +1,77 @@
+aside.sidebar {
+    position: fixed;
+    height: 100%;
+    padding: 3.2rem 2.4rem; /* 32px 24px */
+    background: #6ac7bb;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+aside.sidebar a img {
+    width: 150px;
+    height: 150px;
+    margin-top: 5rem;
+    border: none;
+    background: #6ac7bb;
+}
+
+aside.sidebar a {
+    width: 120px;
+    height: 55px;
+    border: None;
+    background: #ec3262;
+    color: white;
+    border-radius: 1.6rem;
+    cursor: pointer;
+    text-decoration: None;
+    font-size: 2rem;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    transition: background-color 0.2s;
+}
+
+aside.sidebar a:hover {
+    background: #bf2a4e;
+}
+
+#home-button {
+    margin: -12rem 0 -6rem 0;
+}
+
+#prices-button {
+    margin: -13rem 0 -8rem 0;
+}
+
+aside.sidebar footer a {
+    width: 120px;
+    height: 55px;
+    border: none;
+    background: #ec3262;
+    color: white;
+    border-radius: 1.6rem;
+    cursor: pointer;
+    text-decoration: None;
+    font-size: 2rem;
+    font-weight: bold;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    transition: background-color 0.2s;
+}
+
+aside.sidebar footer a:hover {
+    background: #bf2a4e;
+}
+  
+.with-sidebar {
+    padding-left: 110px;
+}
